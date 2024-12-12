@@ -7,5 +7,8 @@ export default antfu(
     rules: {
       'unused-imports/no-unused-imports': 'warn',
     },
+    ignores: [
+      'src/components/ui/**', // shadcn/ui
+    ],
   },
 )

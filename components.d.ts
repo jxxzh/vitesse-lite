@@ -7,6 +7,16 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    Button: typeof import('./src/components/ui/button/Button.vue')['default']
+    Dialog: typeof import('./src/components/ui/dialog/Dialog.vue')['default']
+    DialogClose: typeof import('./src/components/ui/dialog/DialogClose.vue')['default']
+    DialogContent: typeof import('./src/components/ui/dialog/DialogContent.vue')['default']
+    DialogDescription: typeof import('./src/components/ui/dialog/DialogDescription.vue')['default']
+    DialogFooter: typeof import('./src/components/ui/dialog/DialogFooter.vue')['default']
+    DialogHeader: typeof import('./src/components/ui/dialog/DialogHeader.vue')['default']
+    DialogScrollContent: typeof import('./src/components/ui/dialog/DialogScrollContent.vue')['default']
+    DialogTitle: typeof import('./src/components/ui/dialog/DialogTitle.vue')['default']
+    DialogTrigger: typeof import('./src/components/ui/dialog/DialogTrigger.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheCounter: typeof import('./src/components/TheCounter.vue')['default']
