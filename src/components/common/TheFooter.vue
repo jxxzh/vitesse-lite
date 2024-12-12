@@ -12,8 +12,8 @@
       <div i="carbon-sun dark:carbon-moon" />
     </button>
 
-    <RouterLink icon-btn to="/about" data-test-id="about">
-      <div i-carbon-dicom-overlay />
+    <RouterLink icon-btn to="/test">
+      <div i-carbon-ibm-engineering-test-mgmt />
     </RouterLink>
 
     <a icon-btn rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
