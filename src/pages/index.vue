@@ -5,5 +5,6 @@
 <template>
   <div>
     Hello World
+    <span class="i-carbon-sun" />
   </div>
 </template>

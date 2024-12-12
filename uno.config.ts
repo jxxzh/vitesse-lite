@@ -22,6 +22,10 @@ export default defineConfig({
     presetIcons({
       scale: 1.2,
       warn: true,
+      extraProperties: {
+        'display': 'inline-block',
+        'vertical-align': '-0.25em', // 和同行文字居中对齐
+      },
     }),
     presetWebFonts({
       fonts: {
