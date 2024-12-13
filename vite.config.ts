@@ -19,9 +19,14 @@ export default defineConfig({
   },
   plugins: [
     VueMacros({
-
+      defineOptions: false,
+      defineModels: false,
       plugins: {
-        vue: Vue(),
+        vue: Vue({
+          features: {
+            propsDestructure: true,
+          },
+        }),
       },
     }),
 
